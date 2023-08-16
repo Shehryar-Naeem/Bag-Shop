@@ -21,7 +21,7 @@ export const BannerImage= styled("img")(({ src, theme }) => ({
   // backgroundImage: `url(${src})`,
   // backgroundRepeat: "no-repeat",
   // backgroundPosition: "center",
-  width: "35 0px",
+  width: "350px",
   height:"300px",
   [theme.breakpoints.down("md")]: {
     width: "350px",
@@ -29,7 +29,7 @@ export const BannerImage= styled("img")(({ src, theme }) => ({
   [theme.breakpoints.down("sm")]: {
     width: "320px",
     height: "300px",
-  },
+  },  
 }));
 export const BannerContent = styled(Box)(() => ({
     display: "flex",
